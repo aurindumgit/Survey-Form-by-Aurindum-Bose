@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headcontainer">
+        <header class="header">
+            <h1 class="Surveytitle">
+                Fill This Survey Form
+            </h1>
+            
+        </header>
+        <form action="" class="Surveyform">
+            <div class="elements">
+                <h3>NAME</h3>
+                <input type="text" name="firstname" id="firstname"
+                class="formcontrol"
+                placeholder="Enter your first name"
+                required>
+
+                
+
+                
+                <input type="text" name="lastname" id="lastname"
+                class="formcontrol"
+                placeholder="Enter your last name"
+                required>
+
+                <h3>CONTACT NUMBER</h3>
+                <input type="number" name="contact" id="contact"
+                class="formcontrol"
+                placeholder="Enter mobile number"
+                
+                required>
+
+                <h3>ADDRESS</h3>
+                <input type="text" name="street" id="street"
+                class="formcontrol"
+                placeholder="street"
+                required>
+
+                
+                <input type="text" name="city" id="city"
+                class="formcontrol"
+                placeholder="city"
+                required>
+
+                <input type="text" name="state" id="state"
+                class="formcontrol"
+                placeholder="state"
+                required>
+
+                
+                <input type="text" name="pincode" id="pincode"
+                class="formcontrol"
+                placeholder="pincode"
+                required>
+
+
+            </div>
+
+            <div class="radiooptions">
+                <p id="rating">What would you rate the quality of product recieved.</p>
+                <label for="">
+                    <input type="radio" name="rate" value="excellent"
+                    class="enterradio"
+                    checked>Excellent
+                </label>
+
+                <label for="">
+                    <input type="radio" name="rate" value="good"
+                    class="enterradio"
+                    checked>good
+                </label>
+
+                <label for="">
+                    <input type="radio" name="rate" value="bad"
+                    class="enterradio"
+                    checked>bad
+                </label>
+            </div>
+
+            <div class="radiooptions1">
+                <p id="rating1">What would you rate the value for money.</p>
+                <label for="">
+                    <input type="radio" name="rate1" value="excellent"
+                    class="enterradio"
+                    checked>Excellent
+                </label>
+
+                <label for="">
+                    <input type="radio" name="rate1" value="good"
+                    class="enterradio"
+                    checked>good
+                </label>
+
+                <label for="">
+                    <input type="radio" name="rate1" value="bad"
+                    class="enterradio"
+                    checked>bad
+                </label>
+            </div>
+
+            <div class="radiooptions2">
+                <p id="rating2">What would you rate the Delivery Experience.</p>
+                <label for="">
+                    <input type="radio" name="rate2" value="excellent"
+                    class="enterradio"
+                    checked>Excellent
+                </label>
+
+                <label for="">
+                    <input type="radio" name="rate2" value="good"
+                    class="enterradio"
+                    checked>good
+                </label>
+
+                <label for="">
+                    <input type="radio" name="rate2" value="bad"
+                    class="enterradio"
+                    checked>bad
+                </label>
+            </div>
+
+            <div class="wrap">
+                <button class="button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
